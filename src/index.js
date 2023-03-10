@@ -10,4 +10,5 @@ console.table([{ a: 1, b: 'Y' }, { a: 'Z', b: 2 }]);
 
 
 
-setTimeout(() => { alert("hello nada") }, 5000);
+//setTimeout(() => { alert("hello nada") }, 5000);
+

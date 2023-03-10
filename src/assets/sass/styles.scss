@@ -3,12 +3,16 @@
 @import "config/colors";
 
 @import "utilities/spacing";
+@import "utilities/mixin-card"; 
 
 
 @import "base/fonts";
 @import "base/global";
 @import "base/typography";
 @import "base/links";
+
+@import "components/demo";
+@import "components/_components";
 
 
 $background-color:silver;

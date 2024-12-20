@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xndn9g');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xndn9g#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?xndn9g') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?xndn9g') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?xndn9g##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?c8hw0a');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?c8hw0a#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?c8hw0a') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?c8hw0a') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?c8hw0a##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -57,9 +57,19 @@
     content: $c-icon--equalizer; 
   }
 }
+.c-icon--switch {
+  &:before {
+    content: $c-icon--switch; 
+  }
+}
 .c-icon--flag {
   &:before {
     content: $c-icon--flag; 
+  }
+}
+.c-icon--plus {
+  &:before {
+    content: $c-icon--plus; 
   }
 }
 .c-icon--cancel-circle {

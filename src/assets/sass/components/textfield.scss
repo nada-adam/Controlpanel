@@ -20,7 +20,7 @@
     box-shadow: inst 0 1px 2px 0 rgba(darken($color-primary, 30%), 0.2);
     &focus{
         outline: none;
-        box-shadow: inst 01px 2px 0 rgba (darken($color-primary, 30%), 0.2),
+        box-shadow: inst 01px 2px 0 rgba(darken($color-primary, 30%), 0.2),
                     0 0 0 2px $color-primary;
     }
 }
